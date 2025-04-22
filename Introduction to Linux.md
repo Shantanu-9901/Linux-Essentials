@@ -22,9 +22,6 @@ A Linux Distribution (Distro) is an operating system built on top of the Linux k
 - Ubuntu: A popular, user-friendly distribution, especially for desktop users.
 - Debian: A robust distribution known for its stability and large software repository.
 
-For RHCSA, you’ll focus on RHEL or CentOS, as they are directly related to Red Hat.
-
-
 
 ## 📂 Linux File System Hierarchy
 
@@ -83,7 +80,6 @@ Key concepts include:
 - IP addressing: Assigning unique addresses to network interfaces.
 - Network Interfaces: Physical or virtual devices that allow a system to connect to a network (e.g., eth0, wlan0).
 - Routing: The process of determining the best path for data to travel across networks.
-
 
 
 ## 🧰 Basic System Management
