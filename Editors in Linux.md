@@ -163,3 +163,16 @@ This is default mode. Press esc to exit from any mode and enter into command mod
 26. Show previous search result.
 
         N
+
+# Insert Mode:
+Following are commands to enter in insert mode.
+
+1. Insert text at current cursor position.
+
+       i
+
+2. insert text at start of the current line.
+
+       I
+
+3.
