@@ -171,8 +171,100 @@ Following are commands to enter in insert mode.
 
        i
 
-2. insert text at start of the current line.
+2. Insert text at start of the current line.
 
        I
 
-3.
+3. Insert text just right of the current character.
+
+       a
+
+4. Insert text at end of the current line.
+
+       A
+
+5. Insert new line below the current line.
+
+       o
+
+6. Insert new line above the current line.
+
+       O
+
+7. It replaces single character.
+
+       r
+
+8. Replace multiple characters.
+
+       R
+
+# Ex-mode:
+Special executing mode.
+
+1. Quit without saving.
+
+       :q
+
+2. Quit without saving forcefully.
+
+       :q!
+   
+3. Save and stay in file.
+
+       :w
+
+4. Save and quit.
+
+       :wq
+
+5. Save and quit forcefully.
+
+       :wq!
+
+6. Set line numbers.
+
+       :set nu
+
+7. Jump to nth line.
+
+       :<n>
+
+8. Remove line numbers.
+
+       :set nonu
+
+9. Highlight word/string/character.
+
+       :/<word>
+
+10. Remove highlight.
+
+        :nohl
+
+11. Find and replace old word with new word.
+
+        :%s/<old>/<new>/g
+
+12. Execute any command on terminal without leaving editor.
+
+        :!<command>  
+
+# Visual Mode:
+This mode is used for selection. 
+
+1. Select character by character.
+
+       v
+
+2. Select line by line.
+
+       V
+
+3. Select block.
+
+       Ctrl + v
+
+4. For copy, delete, and cut selected area.
+
+       y,d,c
